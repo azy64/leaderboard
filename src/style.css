@@ -1,37 +1,38 @@
 .btn {
-    box-shadow: 5px 3px 2px black;
-    background-color: white;
-    color: black;
-    border: 2px solid black;
-    cursor: pointer;
+  box-shadow: 5px 3px 2px black;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  cursor: pointer;
 }
 
 .grid {
-    display: grid;
+  display: grid;
 }
 
 .grid-col-2 {
-    grid-template-columns: auto auto;
+  grid-template-columns: auto auto;
 }
 
 .square {
-    width: 90%;
-    border: 2px solid black;
-    height: 200px;
+  width: 90%;
+  border: 2px solid black;
+  height: 200px;
 }
 
-input[type=text], input[type=text]::placeholder {
-    color: black;
+input[type=text],
+input[type=text]::placeholder {
+  color: black;
 }
 
 input[type=text] {
-    border: 2px solid black;
+  border: 2px solid black;
 }
 
 .text-end {
-    text-align: end;
+  text-align: end;
 }
 
 .pt {
-    padding-top: 15px;
+  padding-top: 15px;
 }
