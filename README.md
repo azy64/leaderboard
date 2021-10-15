@@ -10,11 +10,13 @@
 
 ## Built With
 
-- HTML5/CSS3
-- JAVASCRIPT
-- WEBPACK
-- JEST
-- External Leaderboard
+<img src="./logo-html-css-javascript.png" width="150" style="padding-top:20px" alt="logo">
+<img src="./webpack.png" width="150" style="padding-top:20px" alt="logo">
+
+<img src="./jest.png" width="150" style="padding-top:20px" alt="logo">
+
+<img src="./api.png" width="150" style="padding-top:20px" alt="logo">
+
   
 ## Live Demo
 
