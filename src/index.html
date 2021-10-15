@@ -23,11 +23,11 @@
             <h3>Add your score</h3>
             <form>
                 <div id="form_name">
-                    <input type="text" name="name" id="name" aria-labelledby="form_name" placeholder="your name"/>
+                    <input type="text" name="name" required id="name" aria-labelledby="form_name" placeholder="your name"/>
                 </div>
                 <br>
                 <div id="form_score">
-                    <input type="text" name="score" aria-labelledby="form_score" id="score" placeholder="Your score"/>
+                    <input type="number" max="1000" required name="score" aria-labelledby="form_score" id="score" placeholder="Your score"/>
                 </div>
                 <div class="pt">
                     <button class="btn">Submit</button>
@@ -37,6 +37,5 @@
         </div>
     </div>
     <footer></footer>
-    <script type="module" src="./index.js"></script>
 </body>
 </html>

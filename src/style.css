@@ -36,3 +36,14 @@ input[type=text] {
 .pt {
   padding-top: 15px;
 }
+.score {
+  display: block;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.score:nth-child(even) {
+
+  background-color: gray;
+}
