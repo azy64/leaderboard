@@ -36,6 +36,7 @@ input[type=text] {
 .pt {
   padding-top: 15px;
 }
+
 .score {
   display: block;
   padding: 5px;
@@ -44,6 +45,5 @@ input[type=text] {
 }
 
 .score:nth-child(even) {
-
   background-color: gray;
 }
