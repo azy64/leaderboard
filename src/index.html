@@ -9,27 +9,27 @@
 </head>
 <body>
     <div>
-        <h1>LEADERBOARD</h1>
+        <h1 class="text-center">LEADERBOARD</h1>
     </div>
-    <div class="grid grid-col-2">
+    <div class="w-50 grid grid-col-2 m-auto">
         <div>
-            <h3>Recent scores <button class="btn">Refresh</button></h3>
+            <h3 class="text-center">Recent scores <button class="btn">Refresh</button></h3>
             <!--list of scores-->
-            <p class="square">
+            <p class="square m-auto">
 
             </p>
         </div>
         <div>
-            <h3>Add your score</h3>
-            <form>
-                <div id="form_name">
-                    <input type="text" name="name" id="name" aria-labelledby="form_name" placeholder="your name"/>
+            <h3 class="text-center">Add your score</h3>
+            <form class="m-auto">
+                <div id="form_name" class="m-auto text-center">
+                    <input type="text" name="name" required id="name" aria-labelledby="form_name" placeholder="your name"/>
                 </div>
                 <br>
-                <div id="form_score">
-                    <input type="text" name="score" aria-labelledby="form_score" id="score" placeholder="Your score"/>
+                <div id="form_score" class="m-auto text-center">
+                    <input type="number" max="1000" required name="score" aria-labelledby="form_score" id="score" placeholder="Your score"/>
                 </div>
-                <div class="pt">
+                <div class="pt text-end pe">
                     <button class="btn">Submit</button>
                 </div>
                 
@@ -37,6 +37,5 @@
         </div>
     </div>
     <footer></footer>
-    <script type="module" src="./index.js"></script>
 </body>
 </html>
