@@ -14,6 +14,18 @@
   grid-template-columns: auto auto;
 }
 
+.w-50 {
+  width: 60%;
+}
+
+.border {
+  border: 1px solid red;
+}
+
+.m-auto {
+  margin: auto;
+}
+
 .square {
   width: 90%;
   border: 2px solid black;
@@ -21,11 +33,16 @@
 }
 
 input[type=text],
+input[type=number],
+input[type=number]::placeholder,
 input[type=text]::placeholder {
   color: black;
+  width: 90%;
+  height: 20px;
 }
 
-input[type=text] {
+input[type=text],
+input[type=number] {
   border: 2px solid black;
 }
 
@@ -33,8 +50,16 @@ input[type=text] {
   text-align: end;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .pt {
   padding-top: 15px;
+}
+
+.pe {
+  padding-right: 15px;
 }
 
 .score {
@@ -46,4 +71,14 @@ input[type=text] {
 
 .score:nth-child(even) {
   background-color: gray;
+}
+
+@media screen and (max-width: 700px) {
+  .grid-col-2 {
+    grid-template-columns: auto;
+  }
+
+  .w-50 {
+    width: 100%;
+  }
 }
